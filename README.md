@@ -30,7 +30,7 @@ This project consists of three independent services:
 |------------|-------------|------------|
 | [fitrack-backend](https://github.com/F11eyaz/fitrack_back) | backendBackend API for financial data management and AI chatbot | NestJS, PostgreSQL, TypeORM |
 | [fitrack-frontend](https://github.com/F11eyaz/fitrack_front) | Web application and user interface | React, Redux Toolkit, Material UI |
-| [fitrack-parser](https://github.com/F11eyaz/fitrack_parser) | PDF bank statement processing service | Python, FastAPI, pdfplumber |
+| [fitrack-parser](https://github.com/F11eyaz/fitrack_bs_parser) | PDF bank statement processing service | Python, FastAPI, pdfplumber |
 
 Each repository contains its own README with setup instructions and documentation.
 
