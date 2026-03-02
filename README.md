@@ -1,6 +1,6 @@
-<p align="center">
+<!-- <p align="center">
   <img src="./assets/logo.png" alt="FiTrack" width="200">
-</p>
+</p> -->
 
 <h1 align="center">FiTrack</h1>
 
@@ -68,6 +68,12 @@ Each repository contains its own README with setup instructions and documentatio
             └────────────────────────────────────┘
 ```
 
+## Database Schema
+
+<p align="center">
+  <img src="./assets/4.3.png" alt="FiTrack PostgreSQL database schema" width="85%">
+</p>
+
 ## Features
 
 **Transaction Management**  
@@ -88,14 +94,48 @@ Web application with full PWA support and iOS compatibility through Capacitor.
 ## Documentation
 
 - [API Documentation](https://fitrack.kz/api/docs) - Interactive Swagger UI
-- [Thesis Paper](./docs/thesis.pdf) - Complete academic documentation
-- [Architecture Diagram](./assets/architecture.png) - System architecture
+- [Thesis Paper](./docs/FiTrack_thesis.pdf) - Complete academic documentation
+- [Database Diagram](./assets/4.3.png) - PostgreSQL schema
 
 ## Screenshots
 
+### Dashboard & Transactions
+
 <p align="center">
-  <img src="./assets/screenshots/dashboard.png" width="45%" />
-  <img src="./assets/screenshots/chatbot.png" width="45%" />
+  <img src="./assets/5.1.1.jpeg" alt="FiTrack dashboard with overall expenses and recent transactions" width="90%">
+</p>
+
+### Assets and Liabilities
+
+<p align="center">
+  <img src="./assets/5.2.1.jpeg" alt="Assets and liabilities overview" width="90%">
+</p>
+
+### AI Financial Assistant
+
+<p align="center">
+  <img src="./assets/5.3.1.jpeg" alt="AI assistant analyzing transactions and categories" width="90%">
+</p>
+
+### Authentication and Profile
+
+<p align="center">
+  <img src="./assets/5.4.1.jpeg" alt="Login screen" width="45%">
+  <img src="./assets/5.4.2.jpeg" alt="Registration screen" width="45%">
+</p>
+
+<p align="center">
+  <img src="./assets/5.5.jpeg" alt="User profile and change password page" width="90%">
+</p>
+
+### API & Statement Upload
+
+<p align="center">
+  <img src="./assets/5.6.jpeg" alt="Swagger API documentation for FiTrack backend" width="90%">
+</p>
+
+<p align="center">
+  <img src="./assets/5.7.jpeg" alt="Bank statement PDF upload dialog in FiTrack" width="90%">
 </p>
 
 ## Getting Started
@@ -104,7 +144,7 @@ To run the project locally, follow the setup instructions in each repository:
 
 1. [Backend Setup](https://github.com/F11eyaz/fitrack_back#getting-started)
 2. [Frontend Setup](https://github.com/F11eyaz/fitrack_front#getting-started)
-3. [Parser Setup](https://github.com/F11eyaz/fitrack-parser#getting-started)
+3. [Parser Setup](https://github.com/F11eyaz/fitrack_bs_parser#getting-started)
 
 ## Tech Stack
 
